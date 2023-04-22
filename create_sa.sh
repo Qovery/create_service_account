@@ -30,7 +30,7 @@ echo -e "-> Generated service account:\n$(cat sa.yaml)"
 echo "-> Getting kubeconfig"
 aws eks update-kubeconfig --region $QOVERY_CLOUD_PROVIDER_REGION --name $QOVERY_KUBERNETES_CLUSTER_NAME
 
-case $QOVERY_JOB_ACTION in
+case $1 in
     START)
         echo "-> Deploying service account"
         kubectl apply -f sa.yaml
@@ -40,7 +40,7 @@ case $QOVERY_JOB_ACTION in
         kubectl delete -f sa.yaml
         ;;
     *)
-        echo "-> Unssuported job action: '$QOVERY_JOB_ACTION'"
+        echo "-> Unssuported job action: '$1'"
         exit 1
         ;;
 esac
