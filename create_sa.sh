@@ -31,11 +31,11 @@ echo "-> Getting kubeconfig"
 aws eks update-kubeconfig --region $QOVERY_CLOUD_PROVIDER_REGION --name $QOVERY_KUBERNETES_CLUSTER_NAME
 
 case $1 in
-    START)
+    start)
         echo "-> Deploying service account"
         kubectl apply -f sa.yaml
         ;;
-    DELETE)
+    delete)
         echo "-> Deleting service account"
         kubectl delete -f sa.yaml
         ;;
