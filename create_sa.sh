@@ -40,7 +40,8 @@ case $1 in
         kubectl delete -f sa.yaml
         ;;
     *)
-        echo "-> Unssuported job action: '$1'"
+        echo "-> Unssuported job action: '$1'. Only 'start' and 'delete' are supported"
+        echo 'Please check the tutorial: https://hub.qovery.com/guides/tutorial/use-aws-iam-roles-with-qovery/#create-a-lifecycle-job'
         exit 1
         ;;
 esac
