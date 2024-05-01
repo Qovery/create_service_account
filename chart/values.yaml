@@ -1,0 +1,9 @@
+nameOverride: ""
+fullnameOverride: ""
+
+serviceAccount:
+  # Override service account name
+  name: ""
+  annotations: {}
+
+awsRoleArn: ""
