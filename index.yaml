@@ -22,4 +22,15 @@ entries:
     urls:
     - https://Qovery.github.io/create_service_account/chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-02T15:21:14.040203781Z"
+  qovery-sa-helper:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-05-02T16:14:57.922662023Z"
+    description: Deploy Service Account chart
+    digest: c8678ae04c3b7ad8d46a29c2823f16a9ed582eee1df3af69c5ed0ceea639803e
+    name: qovery-sa-helper
+    type: application
+    urls:
+    - https://Qovery.github.io/create_service_account/qovery-sa-helper-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-02T16:14:57.922347748Z"
