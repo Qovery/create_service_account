@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  Qovery Service Account Helper:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-05-02T15:21:14.040637287Z"
+    description: Deploy Service Account chart
+    digest: 6eadfa3b116b801cb304c57d27cdb6f6000359806918355a4cc1c44fc198482b
+    name: Qovery Service Account Helper
+    type: application
+    urls:
+    - https://Qovery.github.io/create_service_account/Qovery%20Service%20Account%20Helper-0.1.0.tgz
+    version: 0.1.0
   chart:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://Qovery.github.io/create_service_account/chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-02T14:23:34.761875765Z"
+generated: "2024-05-02T15:21:14.040203781Z"
