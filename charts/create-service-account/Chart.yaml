@@ -1,5 +1,5 @@
 apiVersion: v2
-name: Qovery Service Account Helper
+name: qovery-sa-helper
 description: Deploy Service Account chart
 type: application
 version: 0.1.0
